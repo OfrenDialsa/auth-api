@@ -20,6 +20,9 @@ importers:
       dotenv:
         specifier: ^17.2.3
         version: 17.2.3
+      instances-container:
+        specifier: ^2.0.6
+        version: 2.0.6
       nanoid:
         specifier: 3.3.11
         version: 3.3.11
@@ -1106,6 +1109,9 @@ packages:
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
+
+  instances-container@2.0.6:
+    resolution: {integrity: sha512-h117iLPh+IuCCo44oh4FftUakm8df4cf4pg5bm6EQSkEl5Ol26yKVdyB4T4MNJshiE75aFLS8j1IIi8obe8B+g==}
 
   is-arrayish@0.2.1:
     resolution: {integrity: sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==}
@@ -3099,6 +3105,8 @@ snapshots:
       wrappy: 1.0.2
 
   inherits@2.0.4: {}
+
+  instances-container@2.0.6: {}
 
   is-arrayish@0.2.1: {}
 
