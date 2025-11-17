@@ -1,7 +1,7 @@
 /* istanbul ignore file */
 const pool = require("../src/Infrastructure/database/postgres/pool");
 
-const UsersTableHelper = {
+const UsersTableTestHelper = {
     async addUser({
         id='user-123', username = 'nero', password = 'secret', fullname = 'neromarnero'
     }) {
@@ -13,7 +13,7 @@ const UsersTableHelper = {
         await pool.query(query);
     },
 
-    async findUserById(id){
+    async findUsersById(id){
         const query ={
             text: 'SELECT * FROM users WHERE id = $1',
             values: [id],
@@ -28,4 +28,4 @@ const UsersTableHelper = {
     }
 }
 
-module.exports = UsersTableHelper;
+module.exports = UsersTableTestHelper;
